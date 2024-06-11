@@ -3,6 +3,8 @@ package com.example.parcial;
 import android.os.Parcel;
 import android.os.Parcelable;
 
+import androidx.annotation.NonNull;
+
 public class User implements Parcelable {
     private String username;
     private String password;
@@ -56,11 +58,10 @@ public class User implements Parcelable {
         dest.writeString(password);
     }
 
+    @NonNull
     @Override
     public String toString() {
-        return "User{" +
-                "username='" + username + '\'' +
-                ", password='" + password + '\'' +
-                '}';
+        return  "username='" + username + '\'' +
+                ", password='" + password + '\'';
     }
 }

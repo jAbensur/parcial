@@ -8,6 +8,11 @@
 
     <string name="registerUsername">Ingrese un nombre de usuario</string>
     <string name="registerPassword">Ingrese una contraseña</string>
+    <string name="registerEmail">Ingrese un correo electrónico</string>
+    <string name="registerAge">Ingrese su edad</string>
+    <string name="registerPhone">Ingrese un número telefónico</string>
+    <string name="registerMale">Varón</string>
+    <string name="registerFemale">Mujer</string>
     <string name="btnRegister">Registrarse</string>
     <string name="btnVolver">Volver</string>
 

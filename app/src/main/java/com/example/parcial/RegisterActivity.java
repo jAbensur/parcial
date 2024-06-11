@@ -49,6 +49,7 @@ public class RegisterActivity extends AppCompatActivity {
         }
 
         User user = new User(username, password);
+        Toast.makeText(getApplicationContext(), user.toString(), Toast.LENGTH_SHORT).show();
         Intent intent = new Intent(this, MainActivity.class);
         intent.putExtra("user", user);
         startActivity(intent);
