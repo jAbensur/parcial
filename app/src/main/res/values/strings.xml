@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">Parcial</string>
+    <string name="loginName">ThreeLine</string>
+    <string name="loginUsername">Ingresar usuario</string>
+    <string name="loginPassword">Ingresar contraseña</string>
+    <string name="btnLogin">Iniciar Sesión</string>
+    <string name="register">Registrarse</string>
+
+    <string name="registerUsername">Ingrese un nombre de usuario</string>
+    <string name="registerPassword">Ingrese una contraseña</string>
+    <string name="btnRegister">Registrarse</string>
+    <string name="btnVolver">Volver</string>
 </resources>
