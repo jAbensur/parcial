@@ -59,7 +59,7 @@ public class MainActivity extends AppCompatActivity {
         }
 
         if(username.equals(user.getUsername()) && password.equals(user.getPassword())){
-            Intent intent = new Intent(this, RegisterActivity.class);
+            Intent intent = new Intent(this, PlayActivity.class);
             startActivity(intent);
         }else{
             toast("Credenciales incorrectas");

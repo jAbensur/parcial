@@ -10,4 +10,7 @@
     <string name="registerPassword">Ingrese una contraseña</string>
     <string name="btnRegister">Registrarse</string>
     <string name="btnVolver">Volver</string>
+
+    <string name="playX">Jugador 1 (X) empieza</string>
+    <string name="playRehacer">Reiniciar</string>
 </resources>
